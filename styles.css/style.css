@@ -5,17 +5,20 @@
 }
 
 header {
-    background-color: black;
+    background-image: url(https://i.pinimg.com/564x/08/ab/cc/08abcc662eb7f312dfcb1903d8707e1d.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header div img {
-    width: 150px;
-    background-color: black;
+    width: 300px;
     padding: 20px;
+
 }
+
 
 header nav ul {
     list-style: none;
@@ -25,18 +28,16 @@ header nav ul {
 header nav ul li {
     padding: 10px;
     margin: 5px;
-    background-color: rgb(100, 144, 12);
+    border-radius: 10%;
+    background-color: rgba(85, 174, 229, 0.484);
     list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace
+
 }
 
 a {
-    color: black;
-}
-
-h1 {
-    color: greenyellow;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(6, 6, 78);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .container-grid {
@@ -55,8 +56,19 @@ main section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+main section h2 {
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+
 main h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(85, 174, 229);
 }
 
 h2 {
@@ -90,18 +102,19 @@ nav ul li a {
     text-align: center;
     padding: 30px;
     border-radius: 10px;
-    width: 200px;
+    width: 150px;
     margin: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .grid-item img {
     width: 100px;
-    border-radius: 50%;
+    border-radius: 20%;
+    padding: 5%;
 }
 
 .grid-item p {
-    padding: 3px;
+    padding: 5px;
 }
 
 footer {
@@ -110,17 +123,17 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color:beige;
+    color: beige;
 }
 
 
 footer div nav ul {
     list-style: none;
-    
+
 }
 
 footer div nav ul li {
     padding: 20px;
     margin: 5px;
-       
+
 }
