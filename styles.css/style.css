@@ -47,13 +47,19 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
+
 main section {
-    background-color: rgb(249, 249, 161);
+    
     display: flex;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #00c3ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 main section h2 {
@@ -85,6 +91,7 @@ main section img {
 
 nav {
     display: flex;
+    
 }
 
 nav ul li a {
@@ -106,11 +113,17 @@ nav ul li a {
     margin: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+.grid-item {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
 
 .grid-item img {
     width: 100px;
     border-radius: 20%;
     padding: 5%;
+    
 }
 
 .grid-item p {
