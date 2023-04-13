@@ -29,39 +29,42 @@ header nav ul li {
     padding: 10px;
     margin: 5px;
     border-radius: 10%;
-    background-color: rgba(85, 174, 229, 0.484);
+    background-color: #00c3ff;
     list-style: none;
     font-family: 'Courier New', Courier, monospace
 
 }
 
 a {
-    color: rgb(6, 6, 78);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
 
 .container-grid {
-    background-color: tomato;
+    background-color: rgba(78, 238, 50, 0.551);
     padding: 10px;
     align-items: center;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     
+    
 }
-
 
 main section {
-    
-    display: flex;
+       display: flex;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #00c3ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #00c3ff;  
+background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  
+background: linear-gradient(to right, #ffff1c, #00c3ff); 
 
 }
 
+main h2 {
+
+}
 main section h2 {
     text-align: center;
     padding: 5px;
@@ -74,7 +77,9 @@ main h2 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 5px;
-    background-color: rgb(85, 174, 229);
+    background-color: #00c3ff;
+    background: -webkit-linear-gradient(to left, #ffff1c, #00c3ff);  
+background: linear-gradient(to left, #ffff1c, #00c3ff); 
 }
 
 h2 {
@@ -88,6 +93,9 @@ p {
 main section img {
     width: 200px;
 }
+section div img {
+    border-radius: 10%;
+}
 
 nav {
     display: flex;
@@ -98,9 +106,7 @@ nav ul li a {
     text-decoration: none;
     padding: 10px;
 }
-.boton{
-    
-}
+
 
 .container-grid {
     display: flex;
@@ -114,7 +120,8 @@ nav ul li a {
     border-radius: 10px;
     width: 150px;
     margin: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
 }
 .grid-item {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -125,21 +132,21 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 .grid-item img {
     width: 100px;
     border-radius: 20%;
-    padding: 5%;
-    
-}
+    padding: 5%;  
+    }
 
 .grid-item p {
     padding: 5px;
 }
 
 footer {
-    background-color: black;
+    background-color:rgb(8, 8, 118);
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: beige;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
