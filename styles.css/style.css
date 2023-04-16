@@ -32,7 +32,7 @@ header nav ul li {
     background-color: #00c3ff;
     list-style: none;
     font-family: 'Courier New', Courier, monospace
-
+    display: flex;
 }
 
 a {
@@ -149,7 +149,6 @@ footer {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
 footer div nav ul {
     list-style: none;
 
@@ -159,4 +158,15 @@ footer div nav ul li {
     padding: 20px;
     margin: 5px;
 
+}
+@media (max-width:880px) {
+    header {
+      flex-direction: column;
+    }
+  }
+
+@media(max-widht: 480px) {
+    header {
+        flex-direction: column;
+    }
 }
